@@ -1,4 +1,4 @@
-package neo4j_driver_client
+package neo4j
 
 import (
 	"fmt"
