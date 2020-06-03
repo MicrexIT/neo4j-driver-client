@@ -1,8 +1,8 @@
-package neo4jClient
+package neo4j_driver_client
 
 import (
 	"fmt"
-	neo4j "github.com/neo4j/neo4j-go-driver/neo4j"
+	"github.com/neo4j/neo4j-go-driver/neo4j"
 )
 type Record map[string]interface{}
 
@@ -17,7 +17,7 @@ type client struct {
 	Password string
 }
 
-func NewClient(boltUrl string, username string, password string) client{
+func NewClient(boltUrl string, username string, password string) client {
 	return client{
 		 boltUrl,
 		 username,
