@@ -1,4 +1,4 @@
-module github.com/micrexIT/neo4j-driver-client
+module github.com/MicrexIT/neo4j-driver-client
 
 go 1.14
 
